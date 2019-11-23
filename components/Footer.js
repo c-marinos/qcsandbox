@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Twitter, Instagram } from "react-feather";
 
-export default () => (
+export default props => (
   <Wrapper>
     <Container>
       <Column>
@@ -12,7 +12,12 @@ export default () => (
           <br />
           All rights reserved.
           <br />
-          Illustration by <a href="https://absurd.design/">Absurd Design</a>.
+          {props.hasAbsurd && (
+            <div>
+              Illustration by <a href="https://absurd.design/">Absurd Design</a>
+              .
+            </div>
+          )}
         </Copy>
       </Column>
       <FinalColumn>
