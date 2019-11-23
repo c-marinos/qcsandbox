@@ -122,7 +122,7 @@ export default () => (
   </>
 );
 
-const Layout = styled.div`
+export const Layout = styled.div`
   width: 1040px;
   max-width: 100%;
   margin: 0 auto;
