@@ -5,7 +5,13 @@ import Link from "next/link";
 const Header = () => (
   <Wrapper>
     <HeaderGroup>
-      <img src="/assets/logo.svg" alt="" aria-label="icon" width="40" />
+      <div className="logo">
+        <Link href="/">
+          <a>
+            <img src="/assets/logo.svg" alt="" aria-label="icon" width="40" />
+          </a>
+        </Link>
+      </div>
     </HeaderGroup>
     <HeaderGroupLinks>
       <Link href="/tutorials">
@@ -46,6 +52,10 @@ const Wrapper = styled.header`
 const HeaderGroup = styled.div`
   display: flex;
   align-items: center;
+
+  div.logo > a {
+    padding: 0;
+  }
 `;
 
 const HeaderGroupLinks = styled(HeaderGroup)`

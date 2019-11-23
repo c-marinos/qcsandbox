@@ -96,21 +96,36 @@ export default () => (
       <Section1>
         <h4>Recent Releases</h4>
         <FlexContainer>
-          <Tilt
-            glareEnable={true}
-            perspective={3000}
-            tiltReverse={true}
-            style={{ cursor: "pointer" }}
+          <div style={{ cursor: "pointer", maxWidth: "100%" }}>
+            <Link href="/tutorials/hello" as="/tutorials/hello">
+              <a>
+                <Tilt glareEnable={true} perspective={3000} tiltReverse={true}>
+                  <FlexCard>
+                    <h5>Hello Quantum World</h5>
+                    <img src="/assets/intro.png"></img>
+                  </FlexCard>
+                </Tilt>
+              </a>
+            </Link>
+          </div>
+          <div
+            style={{
+              cursor: "pointer",
+              maxWidth: "100%",
+              margin: "0 2rem"
+            }}
           >
-            <FlexCard>
-              <h5>What the heck is quantum computing?</h5>
-              <p>
-                Introduction to quantum computing, with a hello world example
-                👋🌐
-              </p>
-              <img src="/assets/intro.png"></img>
-            </FlexCard>
-          </Tilt>
+            <Link href="/tutorials/teleportation" as="/tutorials/teleportation">
+              <a>
+                <Tilt glareEnable={true} perspective={3000} tiltReverse={true}>
+                  <FlexCard>
+                    <h5>Quantum Teleportation</h5>
+                    <img src="/assets/teleportation.png"></img>
+                  </FlexCard>
+                </Tilt>
+              </a>
+            </Link>
+          </div>
         </FlexContainer>
       </Section1>
       <FinalSection>
@@ -196,7 +211,7 @@ const Section1 = styled.section`
   margin: 8rem 0 0 0;
   border-top: 0.5px solid #000;
   border-bottom: 0.5px solid #000;
-  padding: 1rem 0 4rem;
+  padding: 1rem 1rem 4rem;
 
   h4 {
     margin-bottom: 2rem;
@@ -204,7 +219,9 @@ const Section1 = styled.section`
 `;
 
 const FlexContainer = styled.div`
+  position: relative;
   display: flex;
+  max-width: 100%;
 `;
 
 const FlexCard = styled.figure`
@@ -212,7 +229,7 @@ const FlexCard = styled.figure`
   flex-direction: column;
   cursor: pointer;
   padding: 1rem;
-  width: 345px;
+  width: 300px;
   max-width: 100%;
   position: relative;
   margin: 0;
@@ -220,13 +237,9 @@ const FlexCard = styled.figure`
   h5 {
     margin: 0;
     font-size: 18px;
-    font-weight: 700;
-  }
-
-  p {
-    margin-top: 0;
+    font-weight: 400;
     margin-bottom: 1rem;
-    color: #888;
+    ${"" /* min-height: 54px; */}
   }
 
   img {
