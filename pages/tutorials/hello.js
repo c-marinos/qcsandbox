@@ -52,14 +52,14 @@ export default () => (
                   <a
                     style={{ fontSize: "16px" }}
                     href="https://github.com/bt3gl"
-                    alt="author Mia Steinkirch"
+                    alt="author Mia von Steinkirch"
                   >
-                    Mia Steinkirch
+                    Mia von Steinkirch
                   </a>
                 </p>
                 <p>
-                  QCsandbox is a platform to help hackers learn quantum software
-                  languages, and become fluent in the quantum computing
+                  QC Sandbox is a platform to help hackers learn quantum
+                  software languages, and become fluent in the quantum computing
                   mathematical model, through interactive coding tutorials,
                   curated articles, and quantum games.
                 </p>

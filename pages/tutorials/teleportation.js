@@ -52,9 +52,9 @@ export default () => (
                   <a
                     style={{ fontSize: "16px" }}
                     href="https://github.com/bt3gl"
-                    alt="author Mia Steinkirch"
+                    alt="author Mia von Steinkirch"
                   >
-                    Mia Steinkirch
+                    Mia von Steinkirch
                   </a>
                 </p>
                 <p>
