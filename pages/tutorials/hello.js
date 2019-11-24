@@ -39,6 +39,24 @@ export default () => (
                   Hello Quantum World
                   <a className="anchor-link" href="#Hello-Quantum-World"></a>
                 </h1>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    fontWeight: "400",
+                    lineHeight: "1.6",
+                    letterSpacing: "1px",
+                    marginBottom: "3rem"
+                  }}
+                >
+                  Written by{" "}
+                  <a
+                    style={{ fontSize: "16px" }}
+                    href="https://github.com/bt3gl"
+                    alt="author Mia Steinkirch"
+                  >
+                    Mia Steinkirch
+                  </a>
+                </p>
                 <p>
                   QCsandbox is a platform to help hackers learn quantum software
                   languages, and become fluent in the quantum computing
