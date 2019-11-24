@@ -50,7 +50,7 @@ export default () => (
           >
             <Link href="/tutorials/teleportation" as="/tutorials/teleportation">
               <a>
-                <Tilt glareEnable={true} perspective={3000} tiltReverse={true}>
+                <Tilt glareEnable={true} tiltReverse={true}>
                   <FlexCard>
                     <h5>Quantum Teleportation</h5>
                     <img src="/assets/teleportation.png"></img>
@@ -183,16 +183,10 @@ const FlexCard = styled.figure`
     object-fit: cover;
   }
 
-  border-width: 0px 0px 0px 0px;
-  border-color: rgba(188, 188, 188, 1);
+  border-width: 1px;
+  border-color: #eaeaea;
   border-radius: 5;
   border-style: solid;
-  box-shadow: 0px 5px 35px 0px rgba(50, 50, 93, 0.17);
-
-  &:hover {
-    border-style: solid;
-    box-shadow: 0px 5px 35px 0px rgba(50, 50, 93, 0.17);
-  }
 `;
 const FinalSection = styled.section`
   margin: 8rem 0;
