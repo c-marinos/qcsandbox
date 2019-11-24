@@ -10,9 +10,9 @@ import Footer from "../../components/Footer";
 export default () => (
   <TutorialWrapper>
     <Head />
+    <Menu />
     <Layout>
       <Header />
-      <Menu />
       <section style={{ padding: "0 1rem" }}>
         <h1>Tutorials</h1>
         <ol>

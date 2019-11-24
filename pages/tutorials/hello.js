@@ -26,9 +26,9 @@ const Content = styled.div`
 export default () => (
   <>
     <Head image="https://og-image.qcsandbox.com/Hello%20Quantum%20World.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fyiqq9wn916qar7i%2Flogo-white.svg%3Fraw%3D1" />
+    <Menu />
     <Layout>
       <Header />
-      <Menu />
       <Content>
         <div>
           <div className="cell border-box-sizing text_cell rendered">
