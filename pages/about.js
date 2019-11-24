@@ -20,7 +20,7 @@ export default () => (
             style={{ padding: 0, fontSize: "18px" }}
             href="https://github.com/bt3gl"
           >
-            Mia Steinkirch
+            Mia von Steinkirch
           </a>{" "}
           – Founder and CEO.
           <br />I felt in love with quantum computing during my PhD in
