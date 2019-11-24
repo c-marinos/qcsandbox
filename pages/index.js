@@ -155,6 +155,9 @@ const FlexContainer = styled.div`
   position: relative;
   display: flex;
   max-width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 `;
 
 const FlexCard = styled.figure`
