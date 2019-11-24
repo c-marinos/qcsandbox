@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Twitter, Instagram } from "react-feather";
+import { Twitter, Instagram, GitHub } from "react-feather";
 
 export default props => (
   <Wrapper>
@@ -21,7 +21,7 @@ export default props => (
         </Copy>
       </Column>
       <FinalColumn>
-        <h4>Follow Us</h4>
+        <h4>We're social, follow us 😍</h4>
         <div>
           <a
             href="https://twitter.com/qcsandbox"
@@ -30,10 +30,16 @@ export default props => (
             <Twitter />
           </a>
           <a
-            href="https://www.instagram.com/qcsandbox/"
+            href="https://www.instagram.com/qcsandbox"
             style={{ marginRight: "1rem", padding: 0 }}
           >
             <Instagram />
+          </a>
+          <a
+            href="https://github.com/wearecuriee"
+            style={{ marginRight: "1rem", padding: 0 }}
+          >
+            <GitHub />
           </a>
         </div>
       </FinalColumn>
