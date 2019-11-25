@@ -79,6 +79,11 @@ export const NewLink = styled.a`
   display: flex;
   align-items: center;
   color: ${props => props.color};
+
+  @media all and (max-width: 930px) {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
 `;
 
 export const NewLinkText = styled.div`

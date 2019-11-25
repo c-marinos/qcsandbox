@@ -158,7 +158,7 @@ export default ({ image }) => (
         font-weight: 600;
       }
       a:hover {
-        color: #000;
+        opacity: 0.8;
       }
 
       h1 {
@@ -232,6 +232,12 @@ export default ({ image }) => (
           monospace;
         font-size: 0.9rem;
         white-space: pre-wrap;
+      }
+
+      .bm-cross-button > button {
+        width: 50px !important;
+        height: 50px !important;
+        left: -8px !important;
       }
 
       @media all and (min-width: 931px) {

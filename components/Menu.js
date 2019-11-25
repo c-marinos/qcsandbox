@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import Link from "next/link";
 import { bubble as Menu } from "react-burger-menu";
 import { NewLink, NewLinkText } from "./Header";
@@ -9,7 +10,7 @@ const styles = {
     width: "2rem",
     height: "2rem",
     right: "1.5rem",
-    top: "2.5rem"
+    top: "2.3rem"
   },
   bmBurgerBars: {
     background: "#000"
@@ -19,10 +20,13 @@ const styles = {
   },
   bmCrossButton: {
     height: "24px",
-    width: "24px"
+    width: "24px",
+    right: "20px"
   },
   bmCross: {
-    background: "#bdc3c7"
+    background: "#bdc3c7",
+    width: "10px",
+    height: "30px"
   },
   bmMenuWrap: {
     position: "fixed",
@@ -48,6 +52,13 @@ const styles = {
   }
 };
 
+const A = styled.a`
+  color: white;
+  @media all and (max-width: 930px) {
+    font-size: 30px;
+  }
+`;
+
 export default () => (
   <Menu right styles={styles}>
     <Link href="/tutorials">
@@ -69,7 +80,7 @@ export default () => (
       </NewLink>
     </Link>
     <Link href="/about">
-      <a style={{ color: "white" }}>About</a>
+      <A style={{ color: "white" }}>About</A>
     </Link>
   </Menu>
 );

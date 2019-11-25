@@ -110,6 +110,7 @@ const Hero = styled.section`
   }
 
   @media all and (max-width: 930px) {
+    margin: 2rem 0 0;
     flex-direction: column;
 
     h1,
@@ -132,6 +133,10 @@ const HeroText = styled.div`
 const HeroIllo = styled.img`
   max-width: 100%;
   width: 500px;
+
+  @media all and (max-width: 930px) {
+    margin-top: 5rem;
+  }
 `;
 
 const Disclaimer = styled.p`
@@ -141,13 +146,17 @@ const Disclaimer = styled.p`
 `;
 
 const Section1 = styled.section`
-  margin: 8rem 0 0 0;
+  margin: 8rem 0 0;
   border-top: 0.5px solid #000;
   border-bottom: 0.5px solid #000;
   padding: 1rem 1rem 4rem;
 
   h4 {
     margin-bottom: 2rem;
+  }
+
+  @media all and (max-width: 930px) {
+    margin: 4rem 0 0;
   }
 `;
 
