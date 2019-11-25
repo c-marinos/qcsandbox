@@ -17,3 +17,8 @@ Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.
 ```bash
 now
 ```
+
+## Creating new posts
+
+* Posts are maintained at our [qcsanbox_tutorials repo](https://github.com/wearecuriee/qcsandbox_tutorials).
+* Images for the posts can be created at our fork of [og-image](https://og-image.qcsandbox.com/).
