@@ -38,16 +38,16 @@ export default () => (
           Thomas is an avid open-source contributor and
           software advocate. His favorite motto is "always curious, always learning". 
         </p>
-        <p>
+        <p style={{ marginTop: "2rem" }}> 
           <a
-            style={{ padding: 0, fontSize: "22px"   }}
-            href="https://github.com/thoamswangio"
+            style={{ padding: 1, fontSize: "22px"   }}
+            href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1"
           >
            🤖 You
           </a>{" "}
           – Quantum Computing Enthusiast.
           <br />
-          <a href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1">Join the team!</a>
+          Be part of the quantum computing revolution and help us build awesomeness!
         </p>
       </section>
     </Layout>
