@@ -22,13 +22,13 @@ export default props => (
         <h4>Follow us</h4>
         <div>
           <a
-            href="https://twitter.com/qcsandbox"
+            href="https://twitter.com/wearecuriee"
             style={{ marginRight: "1rem", padding: 0 }}
           >
             <Twitter />
           </a>
           <a
-            href="https://www.instagram.com/qcsandbox"
+            href="https://www.instagram.com/wearecuriee"
             style={{ marginRight: "1rem", padding: 0 }}
           >
             <Instagram />
