@@ -19,8 +19,7 @@ export default () => (
         <HeroText>
           <h1>Interactive Quantum Computing</h1>
           <h5>
-            Learn to apply quantum languages and become fluent in the quantum
-            computing mathematical model
+          Learn quantum software languages and become fluent in the quantum computing mathematical model
           </h5>
           <SmallSubscribe />
         </HeroText>
@@ -63,7 +62,6 @@ export default () => (
       </Section1>
       <FinalSection>
         <BigSubscribe />
-        <Disclaimer>No spam, only awesomeness.</Disclaimer>
       </FinalSection>
     </Layout>
     <Footer hasAbsurd={true} />

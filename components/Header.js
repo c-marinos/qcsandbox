@@ -22,7 +22,7 @@ const Header = () => (
       </Link>
       <Link href="/games">
         <NewLink>
-          Games
+          Quantum Games
           <NewLinkText bg="#F49B0B">Soon</NewLinkText>
         </NewLink>
       </Link>

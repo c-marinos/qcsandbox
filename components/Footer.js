@@ -8,9 +8,7 @@ export default props => (
       <Column>
         <h3>QC Sandbox™</h3>
         <Copy>
-          © Copyright 2019 Curiee Inc.
-          <br />
-          All rights reserved.
+          © Copyright 2019 <a href="http://curiee.com/">Curiee Inc.</a>
           <br />
           {props.hasAbsurd && (
             <div>
@@ -21,7 +19,7 @@ export default props => (
         </Copy>
       </Column>
       <FinalColumn>
-        <h4>We're social, follow us 😍</h4>
+        <h4>Follow us</h4>
         <div>
           <a
             href="https://twitter.com/qcsandbox"

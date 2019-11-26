@@ -17,28 +17,37 @@ export default () => (
         <h1>About the Team</h1>
         <p style={{ marginBottom: "2rem" }}>
           <a
-            style={{ padding: 0, fontSize: "18px" }}
+            style={{ padding: 0, fontSize: "22px"  }}
             href="https://github.com/bt3gl"
           >
-            Mia von Steinkirch
+             👩🏻‍💻 Mia von Steinkirch
           </a>{" "}
           – Founder and CEO.
-          <br />I felt in love with quantum computing during my PhD in
-          Theorethical Physics, since then I have been alternating between the
-          quantum world and the software world. Former Apple, Etsy, Yelp
-          software engineer.
+          <br />Mia felt in love with quantum computing during her Ph.D. in
+ Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, Los Alamos National Laboratory, and Brookhaven National Laboratory.
         </p>
         <p>
           <a
-            style={{ padding: 0, fontSize: "18px" }}
+            style={{ padding: 0, fontSize: "22px"  }}
             href="https://github.com/thoamswangio"
           >
-            Thomas Wang
+           👨🏻‍💻 Thomas Wang
           </a>{" "}
           – Designer and frontend developer.
           <br />
-          Always curious, always learning. Avid open-source contributor and
-          software advocate.
+          Thomas is an avid open-source contributor and
+          software advocate. His favorite motto is "always curious, always learning". 
+        </p>
+        <p>
+          <a
+            style={{ padding: 0, fontSize: "22px"   }}
+            href="https://github.com/thoamswangio"
+          >
+           🤖 You
+          </a>{" "}
+          – Quantum Computing Enthusiast.
+          <br />
+          <a href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1">Join the team!</a>
         </p>
       </section>
     </Layout>
