@@ -17,19 +17,19 @@ const Header = () => (
       <Link href="/tutorials">
         <NewLink>
           Tutorials
-          <NewLinkText>New</NewLinkText>
+          <NewLinkText bg="#93CBE6">New</NewLinkText>
         </NewLink>
       </Link>
       <Link href="/games">
         <NewLink>
           Quantum Games
-          <NewLinkText bg="#F49B0B">Soon</NewLinkText>
+          <NewLinkText bg="#D0A5D3">Soon</NewLinkText>
         </NewLink>
       </Link>
       <Link href="/sandbox">
         <NewLink>
           Sandbox
-          <NewLinkText bg="#F49B0B">Soon</NewLinkText>
+          <NewLinkText bg="#D0A5D3">Soon</NewLinkText>
         </NewLink>
       </Link>
       <Link href="/about">
