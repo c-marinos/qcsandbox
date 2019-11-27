@@ -29,7 +29,7 @@ export default () => (
         <p>
           <a
             style={{ padding: 0, fontSize: "22px"  }}
-            href="https://github.com/thoamswangio"
+            href="https://github.com/thomaswangio"
           >
            👨🏻‍💻 Thomas Wang
           </a>{" "}
