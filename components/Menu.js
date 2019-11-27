@@ -73,9 +73,9 @@ export default () => (
         <NewLinkText bg="#F49B0B">Soon</NewLinkText>
       </NewLink>
     </Link>
-    <Link href="/sandbox">
+    <Link href="/subscribe">
       <NewLink color="#fff">
-        Sandbox
+        Subscribe
         <NewLinkText bg="#F49B0B">Soon</NewLinkText>
       </NewLink>
     </Link>

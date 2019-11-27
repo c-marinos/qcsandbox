@@ -19,7 +19,7 @@ export default props => (
         </Copy>
       </Column>
       <FinalColumn>
-        <h4>Follow us</h4>
+      <h4>Follow us 💜</h4>
         <div>
           <a
             href="https://twitter.com/wearecuriee"
@@ -39,6 +39,13 @@ export default props => (
           >
             <GitHub />
           </a>
+          
+          <br />
+
+          <a href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1">Join the team </a>
+
+          <br />
+
         </div>
       </FinalColumn>
     </Container>

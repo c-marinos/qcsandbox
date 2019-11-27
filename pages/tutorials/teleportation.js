@@ -58,10 +58,7 @@ export default () => (
                   </a>
                 </p>
                 <p>
-                  In 1993 a group of physicists discovered a type of quantum
-                  teleportation, which enables a quantum state to be instantly
-                  transported to any distance without directly sending the
-                  quantum state (
+                In 1993, a group of physicists discovered a type of quantum teleportation which enables a state to be instantly transported to any distance without directly sending the quantum state (
                   <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.70.1895">
                     Teleporting an unknown quantum state via dual classical and
                     Einstein-Podolsky-Rosen channels, Phys. Rev. Lett. 70, 1895
@@ -767,7 +764,7 @@ export default () => (
             <div className="inner_cell">
               <div className="text_cell_render border-box-sizing rendered_html">
                 <h2 id="Bob-measures-his-qubit-and-confirm-that-the-state-was-teleported">
-                  Bob measures his qubit and confirm that the state was
+                  Bob measures his qubit and confirms that the state was
                   teleported
                   <a
                     className="anchor-link"
@@ -783,7 +780,7 @@ export default () => (
               <div className="text_cell_render border-box-sizing rendered_html">
                 <p>
                   Bob is ready to measures the teleported state. To be able to
-                  measure it, his only needs to know the two (classical) bits of
+                  measure it, he only needs to know the two (classical) bits of
                   information that Alice wrote down from here measurement (bits{" "}
                   <code>0</code> and <code>1</code>). He can get this
                   information by any classical channel (like a text message).

@@ -50,7 +50,7 @@ export default props => (
             padding: 0
           }}
         >
-          {(props.soon && "We're working on this page, stay tuned!") ||
+          {(props.soon && "We're working on this page, stay tuned! ⚡️‍") ||
             "This page is unfinished, sorry!"}{" "}
           Go{" "}
           <Link href="/">

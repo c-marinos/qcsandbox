@@ -26,9 +26,9 @@ const Header = () => (
           <NewLinkText bg="#D0A5D3">Soon</NewLinkText>
         </NewLink>
       </Link>
-      <Link href="/sandbox">
+      <Link href="/subscribe">
         <NewLink>
-          Sandbox
+          Subscribe
           <NewLinkText bg="#D0A5D3">Soon</NewLinkText>
         </NewLink>
       </Link>

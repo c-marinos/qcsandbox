@@ -19,8 +19,9 @@ export default () => (
         <HeroText>
           <h1>Interactive Quantum Computing</h1>
           <h5>
-          Learn quantum software languages and become fluent in the quantum computing mathematical model
+          Learn quantum software languages and become fluent in the quantum computing mathematical paradigm
           </h5>
+
           <SmallSubscribe />
         </HeroText>
         <HeroIllo src="/assets/heroillustration.png" />
@@ -29,6 +30,28 @@ export default () => (
         <h4>Recent Releases</h4>
         <FlexContainer>
           <div style={{ cursor: "pointer", maxWidth: "100%" }}>
+
+
+          <Link href="/tutorials/teleportation" as="/tutorials/teleportation">
+              <a>
+                <Tilt glareEnable={true} tiltReverse={true}>
+                  <FlexCard>
+                    <h5>Quantum Teleportation in Cirq</h5>
+                    <img src="/assets/teleportation.png"></img>
+                  </FlexCard>
+                </Tilt>
+              </a>
+            </Link>
+          </div>
+
+
+          <div
+            style={{
+              cursor: "pointer",
+              maxWidth: "100%",
+              margin: "0 2rem"
+            }}
+          >
             <Link href="/tutorials/hello" as="/tutorials/hello">
               <a>
                 <Tilt glareEnable={true} perspective={3000} tiltReverse={true}>
@@ -40,25 +63,9 @@ export default () => (
               </a>
             </Link>
           </div>
-          <div
-            style={{
-              cursor: "pointer",
-              maxWidth: "100%",
-              margin: "0 2rem"
-            }}
-          >
-            <Link href="/tutorials/teleportation" as="/tutorials/teleportation">
-              <a>
-                <Tilt glareEnable={true} tiltReverse={true}>
-                  <FlexCard>
-                    <h5>Quantum Teleportation</h5>
-                    <img src="/assets/teleportation.png"></img>
-                  </FlexCard>
-                </Tilt>
-              </a>
-            </Link>
-          </div>
-        </FlexContainer>
+
+
+               </FlexContainer>
       </Section1>
       <FinalSection>
         <BigSubscribe />

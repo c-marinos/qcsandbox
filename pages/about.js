@@ -24,7 +24,7 @@ export default () => (
           </a>{" "}
           – Founder and CEO.
           <br />Mia felt in love with quantum computing during her Ph.D. in
- Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, Los Alamos National Laboratory, and Brookhaven National Laboratory.
+ Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, the Los Alamos National Laboratory, and the Brookhaven National Laboratory.
         </p>
         <p>
           <a
