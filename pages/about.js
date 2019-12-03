@@ -48,11 +48,11 @@ export default () => (
           </a>{" "}
           – <b> quantum computing enthusiast.</b>
           <br />   
-          Marie Curie once said: <i>"We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something and that this thing must be attained"</i>.
-          <br /> <br />
-          The mathematical language for quantum mechanics can be intricate at first (it's Nature's chosen language after all). Still, once you spend enough time on it, you start seeing things differently. You begin contemplating our Reality.
-          <br /> <br />
-          At Curiee, we believe that a better future can be built upon <b>Science and Equanimity</b>. If you identify with this idea, we would love to learn more about your unique point of view in the World.
+          Marie Curie once said, "We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something and that this thing must be attained.”
+          <br />
+          The mathematical language used in quantum computing may at first seem highly intricate and difficult to understand; however, we believe that through its use in programming, it can begin to make sense in a very natural way. You begin seeing things differently. You begin to contemplate the fabric of our reality.
+          <br />
+          At Curiee, we believe that a better future can be built on the foundations of Science and Equanimity. If you identify with these ideals, we would be very interested to learn more about your unique point of view in the World
           <br /> <br />
           
         </p>
