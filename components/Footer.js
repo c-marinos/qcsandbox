@@ -8,9 +8,8 @@ export default props => (
       <Column>
       <div>
         <center>
-        <h4><i>All my life through, the new sights of Nature made me rejoice like a child.</i>
-        <br />
-         - Marie Curie</h4>
+
+        <h4><a href="http://curiee.com/">We are Curiee</a></h4>
         
           <a
             href="https://twitter.com/wearecuriee"
