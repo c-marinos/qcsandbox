@@ -30,41 +30,40 @@ The mathematical language used in quantum computing may at first seem highly int
 
     <br /> 
 
-  <h1>About the Team</h1>
-  <p style={{ marginBottom: "2rem" }}>
-    <a
-      style={{ padding: 0, fontSize: "22px"  }}
-      href="https://github.com/bt3gl"
-    >
-       👩🏻‍💻 Mia von Steinkirch
-    </a>{" "}
-    – <b>Physicist && software engineer.</b>
-    <br />Mia fell in love with quantum computing during her Ph.D. in
-Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, the Los Alamos National Laboratory, and the Brookhaven National Laboratory.
-  </p>
-  <p>
-    <a
-      style={{ padding: 0, fontSize: "22px"  }}
-      href="https://github.com/thomaswangio"
-    >
-     👨🏻‍💻 Thomas Wang
-    </a>{" "}
-    – <b>Designer && frontend developer.</b>
-    <br />
-    Thomas is an avid open-source contributor and
-    software advocate. His favorite motto is "always curious, always learning". 
-  </p>
-  <p style={{ marginTop: "2rem" }}> 
-    <a
-      style={{ padding: 1, fontSize: "22px"   }}
-      href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1"
-    >
-     🤖 You
-    </a>{" "}
-    – <b> Quantum computing enthusiast.</b>
-    <br />
-    At Curiee, we believe that a better future can be built on the foundations of <b>Science and Equanimity</b>. If you identify with these ideals, we would be very interested to learn more about your unique point of view in the World.  
-
+    <h1>About the team</h1>
+        <p style={{ marginBottom: "2rem" }}>
+          <a
+            style={{ padding: 0, fontSize: "22px"  }}
+            href="https://github.com/bt3gl"
+          >
+             👩🏻‍💻 Mia von Steinkirch
+          </a>{" "}
+          – <b>Physicist && software engineer.</b>
+          <br />Mia fell in love with quantum computing during her Ph.D. in
+ Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, the Los Alamos National Laboratory, and the Brookhaven National Laboratory.
+        </p>
+        <p>
+          <a
+            style={{ padding: 0, fontSize: "22px"  }}
+            href="https://github.com/thomaswangio"
+          >
+           👨🏻‍💻 Thomas Wang
+          </a>{" "}
+          – <b>Designer && frontend developer.</b>
+          <br />
+          Thomas is an avid open-source contributor and
+          software advocate. His favorite motto is "always curious, always learning". 
+        </p>
+        <p style={{ marginTop: "2rem" }}> 
+          <a
+            style={{ padding: 1, fontSize: "22px"   }}
+            href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1"
+          >
+           🤖 You
+          </a>{" "}
+          – <b> Quantum computing enthusiast.</b>
+          <br />
+          At Curiee, we believe that a better future can be built on the foundations of <b>Science and Equanimity</b>. If you identify with these ideals, we would love to learn more about your unique point of view in the World.  
 
           
         </p>
