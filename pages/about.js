@@ -22,7 +22,7 @@ export default () => (
           >
              👩🏻‍💻 Mia von Steinkirch
           </a>{" "}
-          – Founder.
+          – Physicist && software engineer.
           <br />Mia fell in love with quantum computing during her Ph.D. in
  Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, the Los Alamos National Laboratory, and the Brookhaven National Laboratory.
         </p>
@@ -33,7 +33,7 @@ export default () => (
           >
            👨🏻‍💻 Thomas Wang
           </a>{" "}
-          – Designer and frontend developer.
+          – Designer && frontend developer.
           <br />
           Thomas is an avid open-source contributor and
           software advocate. His favorite motto is "always curious, always learning". 
