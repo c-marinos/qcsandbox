@@ -21,10 +21,10 @@ Commercial quantum computers could be available at any time from a couple of yea
 
 <br />   <br />   
 
-Marie Curie once said, <i>"We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something and that this thing must be attained.”</i> This is one of our mottos.
+Marie Curie once said, <i>"We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something and that this thing must be attained".</i> This is one of our principles at Curiee.
 
 <br />   <br />   
-The mathematical language used in quantum computing may at first seem highly intricate and difficult to understand; however, we believe that through its use in programming, it can begin to make sense in a very natural way. You begin seeing things differently. You begin to contemplate the fabric of our reality.
+The mathematical language used in quantum computing may at first seem highly intricate and difficult to understand; however, we believe that through its use in programming, it can begin to make sense in a very natural way. You begin seeing things differently. You start to contemplate the fabric of our reality.
 
 
 
