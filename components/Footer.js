@@ -6,21 +6,12 @@ export default props => (
   <Wrapper>
     <Container>
       <Column>
-        <h3>QC Sandbox™</h3>
-        <Copy>
-          © Copyright 2019 <a href="http://curiee.com/">Curiee Inc.</a>
-          <br />
-          {props.hasAbsurd && (
-            <div>
-              Illustration by <a href="https://absurd.design/">Absurd Design</a>
-              .
-            </div>
-          )}
-        </Copy>
-      </Column>
-      <FinalColumn>
-      <h4>Follow us 💜</h4>
-        <div>
+      <div>
+        <center>
+        <h4><i>All my life through, the new sights of Nature made me rejoice like a child.</i>
+        <br />
+         - Marie Curie</h4>
+        
           <a
             href="https://twitter.com/wearecuriee"
             style={{ marginRight: "1rem", padding: 0 }}
@@ -40,13 +31,31 @@ export default props => (
             <GitHub />
           </a>
           
-          <br />
 
-          <a href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1">Join the team </a>
-
-          <br />
-
+          </center>
         </div>
+
+
+      </Column>
+      <FinalColumn>
+      <center>
+        
+      <h4>Being made with ⚡️ in sunny California</h4>
+
+
+<div>
+
+
+<a href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1">Join the team </a>
+
+<br />
+  
+  Illustration by<a href="https://absurd.design/">Absurd Design</a>
+
+  
+  </div>
+  </center>
+
       </FinalColumn>
     </Container>
   </Wrapper>
