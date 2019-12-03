@@ -47,7 +47,9 @@ export default () => (
           </a>{" "}
           – Quantum Computing Enthusiast.
           <br />
-          Be part of the quantum computing revolution and help us build awesomeness!
+          Marie Curie once said: <i>"We must have perseverance and above all confidence in ourselves. 
+	We must believe that we are gifted for something and that this thing must be attained".</i>. Quantum mechanics can be hard at first, afterall it's Nature's language, but once you spend enough time on it, 
+	you start seeing reality in a different way, and this can be more fun than anything in the world. At Curiee we belive that a better future can be built upon Science and Equanimity. If this is your belief, you are part of our tribe, and we would love to learn more about your unique point of view in the World.
         </p>
       </section>
     </Layout>
