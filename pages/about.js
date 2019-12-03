@@ -14,7 +14,8 @@ export default () => (
     <Layout>
       <Header />
       <section style={{ padding: "0 1rem" }}>
-        <h1>About the Team</h1>
+
+        <h1>About us</h1>
         <p style={{ marginBottom: "2rem" }}>
           <a
             style={{ padding: 0, fontSize: "22px"  }}
@@ -22,7 +23,7 @@ export default () => (
           >
              👩🏻‍💻 Mia von Steinkirch
           </a>{" "}
-          – physicist and software engineer.
+          – <b>physicist && software engineer.</b>
           <br />Mia fell in love with quantum computing during her Ph.D. in
  Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, the Los Alamos National Laboratory, and the Brookhaven National Laboratory.
         </p>
@@ -33,7 +34,7 @@ export default () => (
           >
            👨🏻‍💻 Thomas Wang
           </a>{" "}
-          – designer and frontend developer.
+          – <b>designer && frontend developer.</b>
           <br />
           Thomas is an avid open-source contributor and
           software advocate. His favorite motto is "always curious, always learning". 
@@ -45,15 +46,17 @@ export default () => (
           >
            🤖 You
           </a>{" "}
-          – Quantum Computing Enthusiast.
-          <br />
-
-Marie Curie once said: "We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something and that this thing must be attained". 
-<br />
-Quantum mechanics mathematical language can be intricate at first (it's Nature's chosen language after all). Still, once you spend enough time on it, you start seeing things differently. You begin contemplating our Reality. 
-<br />
-At Curiee, we believe that a better future can be built upon Science and Equanimity. If this is your belief, you are part of our tribe, and we would love to learn more about your unique point of view in the World.
+          – <b> quantum computing enthusiast.</b>
+          <br />   
+          Marie Curie once said: <i>"We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something and that this thing must be attained"</i>.
+          <br /> <br />
+          The mathematical language for quantum mechanics can be intricate at first (it's Nature's chosen language after all). Still, once you spend enough time on it, you start seeing things differently. You begin contemplating our Reality.
+          <br /> <br />
+          At Curiee, we believe that a better future can be built upon <b>Science and Equanimity</b>. If this is your belief too, you are part of our tribe, and we would love to learn more about your unique point of view in the World.
+          <br /> <br />
+          
         </p>
+
       </section>
     </Layout>
     <Footer />
