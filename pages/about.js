@@ -22,7 +22,7 @@ export default () => (
           >
              👩🏻‍💻 Mia von Steinkirch
           </a>{" "}
-          – Founder and CEO.
+          – Founder.
           <br />Mia fell in love with quantum computing during her Ph.D. in
  Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, the Los Alamos National Laboratory, and the Brookhaven National Laboratory.
         </p>
