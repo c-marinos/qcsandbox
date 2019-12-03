@@ -19,7 +19,7 @@ export default () => (
         <HeroText>
           <h1>Interactive Quantum Computing</h1>
           <h5>
-          Learn quantum software languages and become fluent in the quantum computing mathematical paradigm
+          An interactive platform for software engineers to learn quantum software languages and become fluent in the quantum computing mathematical paradigm
           </h5>
 
           <SmallSubscribe />

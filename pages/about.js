@@ -63,7 +63,7 @@ The mathematical language used in quantum computing may at first seem highly int
           </a>{" "}
           – <b> Quantum computing enthusiast.</b>
           <br />
-          At Curiee, we believe that a better future can be built on the foundations of <b>Science and Equanimity</b>. If you identify with these ideals, we would love to learn more about your unique point of view in the World.  
+          At Curiee, we believe that an exciting future can be built on the foundations of <b>Science and Equanimity</b>. If you identify with these ideas, we would love to learn more about your unique point of view in the World.  
 
           
         </p>
