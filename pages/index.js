@@ -17,7 +17,7 @@ export default () => (
       <Header />
       <Hero>
         <HeroText>
-          <h1>Interactive Quantum Computing</h1>
+          <h1>Quantum Computing Sandbox</h1>
           <h5>
           An interactive platform for software engineers to learn quantum software languages and become fluent in the quantum computing mathematical paradigm
           </h5>
