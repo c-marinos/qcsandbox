@@ -52,7 +52,7 @@ export default () => (
           <br /> <br />
           The mathematical language for quantum mechanics can be intricate at first (it's Nature's chosen language after all). Still, once you spend enough time on it, you start seeing things differently. You begin contemplating our Reality.
           <br /> <br />
-          At Curiee, we believe that a better future can be built upon <b>Science and Equanimity</b>. If this is your belief too, you are part of our tribe, and we would love to learn more about your unique point of view in the World.
+          At Curiee, we believe that a better future can be built upon <b>Science and Equanimity</b>. If you identify with this idea, we would love to learn more about your unique point of view in the World.
           <br /> <br />
           
         </p>
