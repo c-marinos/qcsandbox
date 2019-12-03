@@ -52,7 +52,7 @@ const subButtonStyle = `
 const BigSubscribe = () => (
   <SubscribeCard
     mailchimpURL={url}
-    title="Curious? Join the quantum revolution."
+    title="Curious? Join our newsletter 📰👾"
     description="‍"
     outerCardStyle={outerCardStyle}
     innerCardStyle={innerCardStyle}
