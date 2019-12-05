@@ -18,15 +18,16 @@ export default () => (
         <h1>Tutorials</h1>
         <ol>
         <li>
-            <Link href="/tutorials/teleportation">
-              <a>Quantum Teleportation in Google Cirq</a>
-            </Link>
-          </li>
-          <li>
             <Link href="/tutorials/hello">
-              <a>(soon) Quantum Hello World</a>
+              <a> Quantum Hello World 👾</a>
             </Link>
           </li>
+        <li>
+            <Link href="/tutorials/teleportation">
+              <a>Quantum Teleportation in Google Cirq ⌛️</a>
+            </Link>
+          </li>
+
           <li>
             <Link href="/tutorials/hello">
             <a>(soon) Arithmetic Circuit</a>
