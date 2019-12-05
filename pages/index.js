@@ -33,13 +33,7 @@ export default () => (
 
 
 
-          <div
-            style={{
-              cursor: "pointer",
-              maxWidth: "100%",
-              margin: "0 2rem"
-            }}
-          >
+   
             <Link href="/tutorials/hello" as="/tutorials/hello">
               <a>
                 <Tilt glareEnable={true} perspective={3000} tiltReverse={true}>
@@ -51,7 +45,13 @@ export default () => (
               </a>
             </Link>
           </div>
-
+          <div
+            style={{
+              cursor: "pointer",
+              maxWidth: "100%",
+              margin: "0 2rem"
+            }}
+          >
 
           <Link href="/tutorials/teleportation" as="/tutorials/teleportation">
               <a>
