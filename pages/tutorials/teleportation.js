@@ -923,10 +923,10 @@ export default () => (
                   />
                 </h3>
                 <p>
-                  <a href="https://quantum.country/teleportation">
-                    Check out "How quantum teleportation works" by Andy
-                    Matuschak and Michael Nielsen
-                  </a>
+                  
+                    The source code (Juptyer notebooks) for this tutorial is available <a href="https://github.com/wearecuriee/qcsandbox_tutorials/blob/master/quantum_teleportation.ipynb">here</a>. If you enjoyed what you read, check out <a href="https://quantum.country/teleportation">"How quantum teleportation works"</a> by Andy
+                    Matuschak and Michael Nielsen.
+                  
                   .
                 </p>
               </div>
