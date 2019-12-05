@@ -32,18 +32,6 @@ export default () => (
           <div style={{ cursor: "pointer", maxWidth: "100%" }}>
 
 
-          <Link href="/tutorials/teleportation" as="/tutorials/teleportation">
-              <a>
-                <Tilt glareEnable={true} tiltReverse={true}>
-                  <FlexCard>
-                    <h5>Quantum Teleportation in Cirq</h5>
-                    <img src="/assets/teleportation.png"></img>
-                  </FlexCard>
-                </Tilt>
-              </a>
-            </Link>
-          </div>
-
 
           <div
             style={{
@@ -63,6 +51,20 @@ export default () => (
               </a>
             </Link>
           </div>
+
+
+          <Link href="/tutorials/teleportation" as="/tutorials/teleportation">
+              <a>
+                <Tilt glareEnable={true} tiltReverse={true}>
+                  <FlexCard>
+                    <h5>Quantum Teleportation in Cirq</h5>
+                    <img src="/assets/teleportation.png"></img>
+                  </FlexCard>
+                </Tilt>
+              </a>
+            </Link>
+          </div>
+
 
 
                </FlexContainer>
