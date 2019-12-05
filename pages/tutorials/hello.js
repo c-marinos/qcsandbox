@@ -58,13 +58,12 @@ export default () => (
                   </a>
                 </p>
                 <p>
-                  QC Sandbox is a platform to help hackers learn quantum
-                  software languages, and become fluent in the quantum computing
-                  mathematical model, through interactive coding tutorials,
+                  QC Sandbox is a platform to help software engineers and quantum computing enthusiasts learn quantum
+                  software languages, through interactive coding tutorials,
                   curated articles, and quantum games.
                 </p>
                 <p>
-                  In this <em>hello world</em> you will learn how to create a
+                  In this very simple <em>hello world</em> example, you will learn how to create a
                   qubit and a circuit in one of the open-source quantum software
                   languages available:{" "}
                   <a href="https://github.com/quantumlib/Cirq">Google's Cirq</a>
@@ -83,7 +82,7 @@ export default () => (
           </div>
           <div className="cell border-box-sizing code_cell rendered">
             <div className="input">
-              <div className="prompt input_prompt">In&nbsp;[1]:</div>
+              <div className="prompt input_prompt"></div>
               <div className="inner_cell">
                 <div className="input_area">
                   <div className=" highlight hl-ipython3">
@@ -117,7 +116,7 @@ export default () => (
           </div>
           <div className="cell border-box-sizing code_cell rendered">
             <div className="input">
-              <div className="prompt input_prompt">In&nbsp;[2]:</div>
+              <div className="prompt input_prompt"></div>
               <div className="inner_cell">
                 <div className="input_area">
                   <div className=" highlight hl-ipython3">
@@ -172,7 +171,7 @@ export default () => (
           </div>
           <div className="cell border-box-sizing code_cell rendered">
             <div className="input">
-              <div className="prompt input_prompt">In&nbsp;[3]:</div>
+              <div className="prompt input_prompt"></div>
               <div className="inner_cell">
                 <div className="input_area">
                   <div className=" highlight hl-ipython3">
@@ -282,12 +281,15 @@ export default () => (
             <div className="inner_cell">
               <div className="text_cell_render border-box-sizing rendered_html">
                 <h3 id="Congratulations,-you-measured-your-first-qubit!">
-                  Congratulations, you measured your first qubit! Check out the source code (Jupyter notebook) <a href="https://github.com/wearecuriee/qcsandbox_tutorials/blob/master/hello_quantum_world.ipynb">here</a>.
+                  Congratulations, you measured your first qubit! 
+                  </h3>
+                  
+                  Check out the source code (Jupyter notebook) <a href="https://github.com/wearecuriee/qcsandbox_tutorials/blob/master/hello_quantum_world.ipynb">here</a>.
                   <a
                     className="anchor-link"
                     href="#Congratulations,-you-measured-your-first-qubit!"
                   ></a>
-                </h3>
+               
               </div>
             </div>
           </div>
