@@ -243,7 +243,7 @@ export default () => (
                 <p>
                   Let's fill this object with a random qubit, by applying a{" "}
                   <code>X</code> gate and <code>Y</code> gate to it, and
-                  multiplying by a random float numbers:
+                  multiplying by a random float number:
                 </p>
               </div>
             </div>
