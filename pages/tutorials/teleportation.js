@@ -58,8 +58,10 @@ export default () => (
                   </a>
                 </p>
                 <p>
-                In 1993, a group of physicists discovered a type of quantum teleportation which enables a state to be instantly transported to any distance without directly sending the quantum state (
-                  <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.70.1895">
+                In 1993, a group of physicists discovered a type of quantum teleportation that 
+  would enable a quantum state to be instantly transported any distance without directly sending the actual qubit (
+                  
+  <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.70.1895">
                     Teleporting an unknown quantum state via dual classical and
                     Einstein-Podolsky-Rosen channels, Phys. Rev. Lett. 70, 1895
                   </a>
@@ -114,8 +116,7 @@ export default () => (
               <div className="text_cell_render border-box-sizing rendered_html">
                 <p>
                   Let's call this quantum state the message (represented by the
-                  variable <code>msg</code> and the index <code>0</code> in the
-                  circuit we are going to draw).
+                  variable <code>msg</code>), and represent this in the circuit we are drawing with the index <code>0</code>.
                 </p>
                 <p>
                   The teleportation is accomplished by pre-sharing an entangled
@@ -135,7 +136,7 @@ export default () => (
                   <em>
                     Note: In this tutorial, we are using{" "}
                     <a href="https://github.com/quantumlib/Cirq">
-                      Google's Cirq
+                      Google Cirq
                     </a>{" "}
                     as the source code. Nevertheless, <strong>qcsandbox</strong>{" "}
                     is a language-agnostic platform, and we will be adding
@@ -358,7 +359,7 @@ export default () => (
             <div className="inner_cell">
               <div className="text_cell_render border-box-sizing rendered_html">
                 <p>
-                  The variable <code>original_message</code> holds Alice's
+                  The variable below <code>original_message</code> holds Alice's
                   message, which will be compared to Bob's teleported message in
                   the end:
                 </p>
@@ -479,7 +480,7 @@ export default () => (
                   called <strong>Bell Quantum State</strong>.
                 </p>
                 <p>
-                  A Bell state is composed of two <strong>entangled</strong>{" "}
+                  A Quantum Bell State is composed of two <strong>entangled</strong>{" "}
                   qubits, which are pre-shared between Alice and Bob.
                 </p>
                 <p>
@@ -490,14 +491,14 @@ export default () => (
                 <p>We can build this well-defined state by:</p>
                 <ol>
                   <li>
-                    Create two random qubits, <code>1</code> and <code>2</code>.
+                    Creating two random qubits, <code>1</code> and <code>2</code>.
                   </li>
                   <li>
-                    Apply a <strong>CNOT</strong> gate to <code>1</code> and{" "}
+                    Applying a <strong>CNOT</strong> gate to <code>1</code> and{" "}
                     <code>2</code>.
                   </li>
                   <li>
-                    Then apply a <strong>Hadamard gate</strong> to{" "}
+                   Applying a <strong>Hadamard gate</strong> to{" "}
                     <code>1</code>.
                   </li>
                 </ol>
@@ -508,7 +509,7 @@ export default () => (
                 <p>
                   In the end, this qubit that Bob is holding, <code>1</code>,
                   will be the <em>medium</em> where Alice's message will be
-                  teleported. Like a white sheet of paper waiting to receive ink
+                  teleported; like a white sheet of paper waiting to receive ink
                   from a printer.
                 </p>
               </div>
@@ -593,15 +594,15 @@ export default () => (
                   />
                 </h3>
                 <p>
-                  Now, Alice's processes her message (qubit <code>0</code>) with
-                  her Bell's qubit (<code>1</code>). This will entangle her
-                  message with Bell's state, consequently entangling it to Bob's
+                  Now, Alice processes her message (qubit <code>0</code>) with
+                  her Bell qubit (<code>1</code>). This will entangle her
+                  message with her Bell qubit, consequently entangling it to Bob's
                   qubit.
                 </p>
                 <p>
                   Note that Bob is just sitting there with his Bell qubit,
-                  waiting for the magic to happen (line <code>2</code>) in the
-                  circuit.
+                  waiting for the magic to happen (line <code>2</code> in the
+                  circuit).
                 </p>
               </div>
             </div>
@@ -666,14 +667,14 @@ export default () => (
             <div className="inner_cell">
               <div className="text_cell_render border-box-sizing rendered_html">
                 <h2 id="Alice's-reads-her-processed-Message">
-                  Alice's reads her processed Message
+                  Alice reads her processed Message
                   <a
                     className="anchor-link"
                     href="#Alice's-reads-her-processed-Message"
                   />
                 </h2>
                 <p>
-                  Alice now measures her processed message. The measurement is a{" "}
+                  Alice now measures her processed message. The measurement is called{" "}
                   <strong>Bell measurement</strong>:
                 </p>
               </div>
@@ -779,14 +780,14 @@ export default () => (
             <div className="inner_cell">
               <div className="text_cell_render border-box-sizing rendered_html">
                 <p>
-                  Bob is ready to measures the teleported state. To be able to
-                  measure it, he only needs to know the two (classical) bits of
-                  information that Alice wrote down from here measurement (bits{" "}
+                  Bob is ready to measure the teleported state. In order to read the state,
+                he only needs to know the two (classical) bits of
+                  information that Alice wrote down from her measurement (bits{" "}
                   <code>0</code> and <code>1</code>). He can get this
                   information by any classical channel (like a text message).
                 </p>
                 <p>
-                  Bob can now measure his qubit, which prints (collapse to)
+                  Bob can now measure his qubit, which prints (or, collapse to)
                   Alice's original random message (in the beginning of line{" "}
                   <code>0</code> in the circuit):
                 </p>
