@@ -903,9 +903,7 @@ export default () => (
               <div className="text_cell_render border-box-sizing rendered_html">
                 <p>
                   <strong>
-                    Voilà! Bob has exactly has a qubit which is identical to
-                    Alice's message, and this message was never directly sent to
-                    Bob!
+                    Voilà! Bob has a qubit that is identical to Alice’s, even though it was never sent to him!
                   </strong>
                 </p>
               </div>
