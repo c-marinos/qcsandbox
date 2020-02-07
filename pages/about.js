@@ -30,7 +30,7 @@ The mathematical language used in quantum computing may at first seem highly int
 
     <br /> 
 
-    <h1>About the team</h1>
+     <h1>About the team</h1>
         <p style={{ marginBottom: "2rem" }}>
           <a
             style={{ padding: 0, fontSize: "22px"  }}
@@ -38,10 +38,12 @@ The mathematical language used in quantum computing may at first seem highly int
           >
              👩🏻‍💻 Mia von Steinkirch
           </a>{" "}
-          – <b>Physicist && software engineer.</b>
-          <br />Mia fell in love with quantum computing during her Ph.D. in
- Theoretical Physics. Since then, she has been alternating between the quantum world and the software world. In the past, she worked at Apple, Etsy, Yelp, the Los Alamos National Laboratory, and the Brookhaven National Laboratory.
+          – <b>Physicist && software engineer.</b>
+          <br />Mia has been a quantum computing enthusiast since her Ph.D. in
+ Theoretical Physics in Stony Brook. Since then, she has been alternating between the quantum world and the software world. 
+ In the past, she worked at Apple, Etsy, Yelp, the Los Alamos National Laboratory, and the Brookhaven National Laboratory.
         </p>
+
         <p>
           <a
             style={{ padding: 0, fontSize: "22px"  }}
@@ -49,11 +51,41 @@ The mathematical language used in quantum computing may at first seem highly int
           >
            👨🏻‍💻 Thomas Wang
           </a>{" "}
-          – <b>Designer && frontend developer.</b>
+          – <b>Designer && frontend developer.</b>
           <br />
           Thomas is an avid open-source contributor and
           software advocate. His favorite motto is "always curious, always learning". 
         </p>
+
+
+
+        <p style={{ marginTop: "2rem" }}> 
+          <a
+            style={{ padding: 0, fontSize: "22px"  }}
+            href="http://patrickjustice.com/"
+          >
+           🧑🏽‍💻 Patrick Justice
+          </a>{" "}
+          – <b>Copywriter && artist.</b>
+          <br />
+                    Patrick is a freelance writer from Los Angeles 
+          looking to inspire the intellectual movement through the use of rhetorical strategy.
+        </p>
+
+
+        <p style={{ marginTop: "2rem" }}> 
+          <a
+            style={{ padding: 0, fontSize: "22px"  }}
+            href="https://fishbonesfoto.com/"
+          >
+           👩🏼‍💻 Meghan Rodrigues
+          </a>{" "}
+          – <b>Photographer && graphic designer.</b>
+          <br />
+          Meghan is a science admirer and a native Hawaiian. 
+          She is the artist behind our post's pictures. Nature, surfing, and feminism are part of her thematics.
+        </p>
+
         <p style={{ marginTop: "2rem" }}> 
           <a
             style={{ padding: 1, fontSize: "22px"   }}
@@ -61,7 +93,7 @@ The mathematical language used in quantum computing may at first seem highly int
           >
            🤖 You
           </a>{" "}
-          – <b> Quantum computing enthusiast.</b>
+          – <b> Quantum computing enthusiast.</b>
           <br />
           At Curiee, we believe that an exciting future can be built on the foundations of <b>Science and Equanimity</b>. If you identify with these ideas, we would love to learn more about your unique point of view in the World.  
 
