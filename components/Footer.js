@@ -4,59 +4,8 @@ import { Twitter, Instagram, GitHub } from "react-feather";
 
 export default props => (
   <Wrapper>
-    <Container>
-      <Column>
-      <div>
-        <center>
-
-        <h4><a href="http://curiee.com/">We are Curiee</a></h4>
-        
-          <a
-            href="https://twitter.com/wearecuriee"
-            style={{ marginRight: "1rem", padding: 0 }}
-          >
-            <Twitter />
-          </a>
-          <a
-            href="https://www.instagram.com/wearecuriee"
-            style={{ marginRight: "1rem", padding: 0 }}
-          >
-            <Instagram />
-          </a>
-          <a
-            href="https://github.com/wearecuriee"
-            style={{ marginRight: "1rem", padding: 0 }}
-          >
-            <GitHub />
-          </a>
-          
-
-          </center>
-        </div>
 
 
-      </Column>
-      <FinalColumn>
-      <center>
-        
-      <h4>Being made with ⚡️ in sunny California</h4>
-
-
-<div>
-
-
-<a href="https://angel.co/company/curiee/jobs/670471-quantum-computing-enthusiast?inFrame=1">Join the team </a>
-
-<br />
-  
-  Illustration by<a href="https://absurd.design/">Absurd Design</a>
-
-  
-  </div>
-  </center>
-
-      </FinalColumn>
-    </Container>
   </Wrapper>
 );
 

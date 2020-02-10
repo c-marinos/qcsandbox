@@ -20,19 +20,13 @@ const Header = () => (
           <NewLinkText bg="#93CBE6">New</NewLinkText>
         </NewLink>
       </Link>
-      <Link href="/games">
+      <Link href="/sandbox">
         <NewLink>
-          Quantum Games
+          Sandbox
           <NewLinkText bg="#D0A5D3">Soon</NewLinkText>
         </NewLink>
       </Link>
-      <Link href="/subscribe">
-        <NewLink>
-          Subscribe
-          <NewLinkText bg="#D0A5D3">Soon</NewLinkText>
-        </NewLink>
-      </Link>
-      <Link href="/about">
+      <Link href="https://curiee.com/about">
         <a>About</a>
       </Link>
     </HeaderGroupLinks>

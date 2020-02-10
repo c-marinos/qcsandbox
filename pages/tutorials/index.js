@@ -23,46 +23,12 @@ export default () => (
             </Link>
           </li>
         <li>
-            <Link href="/tutorials/teleportation">
+            <Link href="https://medium.com/quantum-computing-for-the-utopian/a-simple-quantum-teleportation-exercise-with-googles-cirq-f5d93dadf307" target="_blank">
               <a>Quantum Teleportation in Google Cirq ⌛️</a>
             </Link>
           </li>
 
-          <li>
-            <Link href="/tutorials/hello">
-            <a>(soon) Arithmetic Circuit</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/tutorials/hello">
-            <a>(soon) Deutsch's Algorithm</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/tutorials/hello">
-            <a>(soon) Grover Algorithm</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/tutorials/hello">
-            <a>(soon) Shor's Algorithm</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/tutorials/hello">
-            <a>(soon) Bell Inequality Test</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/tutorials/hello">
-            <a>(soon) Quantum Fourier Transform</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/tutorials/hello">
-            <a>(soon) Bernstein-Vazirani Algorithm</a>
-            </Link>
-          </li>
+
 
         </ol>
       </section>

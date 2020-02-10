@@ -53,7 +53,7 @@ export default () => (
             }}
           >
 
-          <Link href="/tutorials/teleportation" as="/tutorials/teleportation">
+          <Link href="https://medium.com/quantum-computing-for-the-utopian/a-simple-quantum-teleportation-exercise-with-googles-cirq-f5d93dadf307" target="_blank">
               <a>
                 <Tilt glareEnable={true} tiltReverse={true}>
                   <FlexCard>

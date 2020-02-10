@@ -1,22 +1,33 @@
 # QC Sandbox Website
 
-## Installation
+
+## Development
+
+### Installation
 
 Install it and run:
 
 ```bash
 npm install
 npm run dev
+```
+
 # or
+```bash
 yarn
 yarn dev
 ```
 
+Open in your browser at [localhost:3000](https://localhost:3000).
+
+### Deployment
 Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download))
 
 ```bash
 now
 ```
+
+---
 
 ## Creating new posts
 

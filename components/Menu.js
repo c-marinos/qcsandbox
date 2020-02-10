@@ -67,19 +67,13 @@ export default () => (
         <NewLinkText>New</NewLinkText>
       </NewLink>
     </Link>
-    <Link href="/games">
+    <Link href="/sandbox">
       <NewLink color="#fff">
-        Games
+        Sandbox
         <NewLinkText bg="#F49B0B">Soon</NewLinkText>
       </NewLink>
     </Link>
-    <Link href="/subscribe">
-      <NewLink color="#fff">
-        Subscribe
-        <NewLinkText bg="#F49B0B">Soon</NewLinkText>
-      </NewLink>
-    </Link>
-    <Link href="/about">
+    <Link href="https://curiee.com/about">
       <A style={{ color: "white" }}>About</A>
     </Link>
   </Menu>
