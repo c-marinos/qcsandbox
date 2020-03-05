@@ -1,5 +1,10 @@
 # QC Sandbox Website
 
+<p align="center">
+<img src="./website.png" width="60%" align="center" style="padding:1px;border:thin solid black;" />
+</p>
+
+
 
 ## Development
 
