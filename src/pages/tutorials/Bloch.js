@@ -1,5 +1,4 @@
-
-import 'aframe'
+import "aframe";
 import React from "react";
 import styled from "styled-components";
 import Header from "../../components/Header";
@@ -59,89 +58,177 @@ const variableStyle = {
   padding: "0 3px"
 };
 
-var direction = 1; // -1 for left, 1 for right
-var speed = 0.1;
-var updateRate = 0;
+var addX = 1;
+var addY = 1;
+var addZ = 1;
 
-function X() {
-  /*
+var initialX = 0;
+var initialY = 0;
+var initialZ = 0;
+
+var intervalIdX, intervalIdY, intervalIdZ, intervalIdH, intervalIdM;
+
+function moveY() {
   var def = document.querySelector("#arrow");
-
   var defRotation = def.getAttribute("rotation");
   var x = defRotation.x;
-  var newX = x + direction * speed;
-
-  defRotation.x = newX;
-  def.setAttribute("rotation", defRotation);
-
-  /*
-      var xval = {
-
-    x: document.getElementById("arrowcyl").getAttribute("position")["x"],
-    y: document.getElementById("arrowcyl").getAttribute("position")["y"],
-    z: document.getElementById("arrowcyl").getAttribute("position")["z"]
-  };
-
-  if (JSON.stringify(xval) === JSON.stringify({ x: 0, y: 1.75, z: -1 })) {
-    document.getElementById("arrowcyl").setAttribute("position", "0 1.25 -1");
-
-    document.getElementById("arrowcone").setAttribute("position", "0 1 -1");
-    document.getElementById("arrowcone").setAttribute("rotation", "180 0 0");
-  } else if (
-    JSON.stringify(xval) === JSON.stringify({ x: 0, y: 1.25, z: -1 })
-  ) {
-    document.getElementById("arrowcyl").setAttribute("position", "0 1.75 -1");
-
-    document.getElementById("arrowcone").setAttribute("position", "0 2 -1");
-    document.getElementById("arrowcone").setAttribute("rotation", "0 0 0");
-  } else {
+  console.log(initialX);
+  console.log(Math.round(x));
+  var endval = initialX + 180;
+  if (endval >= 360) {
+    endval -= 360;
+  }
+  if (Math.round(x) === 360) {
+    x = 0;
+  }
+  if (Math.round(x) === endval) {
+    clearInterval(intervalIdY);
     return;
   }
-  */
+
+  var newX = x + addX;
+
+  defRotation.x = Math.round(newX);
+  def.setAttribute("rotation", defRotation);
 }
 
-//setInterval(X, 1000 / updateRate);
-
 function Y() {
-  var xval = {
-    x: document.getElementById("arrowcyl").getAttribute("position")["x"],
-    y: document.getElementById("arrowcyl").getAttribute("position")["y"],
-    z: document.getElementById("arrowcyl").getAttribute("position")["z"]
-  };
+  var def = document.querySelector("#arrow");
+  var defRotation = def.getAttribute("rotation");
+  var x = defRotation.x;
+  initialX = Math.round(x);
+  if (initialX >= 360) {
+    initialX -= 360;
+  }
+  intervalIdY = setInterval(moveY, 10);
+}
 
-  if (JSON.stringify(xval) === JSON.stringify({ x: 0, y: 1.75, z: -1 })) {
-    document.getElementById("arrowcyl").setAttribute("position", "0 1.25 -1");
-
-    document.getElementById("arrowcone").setAttribute("position", "0 1 -1");
-    document.getElementById("arrowcone").setAttribute("rotation", "180 0 0");
-  } else if (
-    JSON.stringify(xval) === JSON.stringify({ x: 0, y: 1.25, z: -1 })
-  ) {
-    document.getElementById("arrowcyl").setAttribute("position", "0 1.75 -1");
-
-    document.getElementById("arrowcone").setAttribute("position", "0 2 -1");
-    document.getElementById("arrowcone").setAttribute("rotation", "0 0 0");
-  } else {
+function moveX() {
+  var def = document.querySelector("#arrow");
+  var defRotation = def.getAttribute("rotation");
+  var z = defRotation.z;
+  console.log(initialZ);
+  console.log(Math.round(z));
+  var endval = initialZ - 180;
+  if (endval <= -360) {
+    endval += 360;
+  }
+  if (Math.round(z) === -360) {
+    z = 0;
+  }
+  if (Math.round(z) === endval) {
+    clearInterval(intervalIdX);
     return;
   }
+
+  var newZ = z - addZ;
+
+  defRotation.z = Math.round(newZ);
+  def.setAttribute("rotation", defRotation);
+}
+
+function X() {
+  var def = document.querySelector("#arrow");
+  var defRotation = def.getAttribute("rotation");
+  var z = defRotation.z;
+  initialZ = Math.round(z);
+  if (initialZ >= 360) {
+    initialZ -= 360;
+  }
+  intervalIdX = setInterval(moveX, 10);
+}
+
+function moveZ() {
+  var def = document.querySelector("#arrow");
+  var defRotation = def.getAttribute("rotation");
+  var y = defRotation.y;
+  console.log(initialY);
+  console.log(Math.round(y));
+  var endval = initialY - 180;
+  if (endval <= -360) {
+    endval += 360;
+  }
+  if (Math.round(y) === -360) {
+    y = 0;
+  }
+  if (Math.round(y) === endval) {
+    clearInterval(intervalIdZ);
+    return;
+  }
+
+  var newY = y - addY;
+
+  defRotation.y = Math.round(newY);
+  def.setAttribute("rotation", defRotation);
 }
 
 function Z() {
-  document.getElementById("arrowcyl").setAttribute("position", "0 1.25 -1");
-  document.getElementById("arrowcone").setAttribute("position", "0 1 -1");
-  document.getElementById("arrowcone").setAttribute("rotation", "0 0 180");
+  var def = document.querySelector("#arrow");
+  var defRotation = def.getAttribute("rotation");
+  var y = defRotation.y;
+  initialY = Math.round(y);
+  if (initialY >= 360) {
+    initialY -= 360;
+  }
+  intervalIdZ = setInterval(moveZ, 10);
+}
+
+function moveH() {
+  var def = document.querySelector("#arrow");
+  var defRotation = def.getAttribute("rotation");
+  var z = defRotation.z;
+  console.log(Math.round(z));
+  if (Math.round(z) === -90 || Math.round(z) === -270) {
+    clearInterval(intervalIdH);
+    return;
+  }
+  if (Math.round(z) === -360) {
+    z = 0;
+  }
+  if (Math.round(z) === 360) {
+    z = 0;
+  }
+
+  var newZ = z - addZ;
+
+  defRotation.z = Math.round(newZ);
+  def.setAttribute("rotation", defRotation);
 }
 
 function Hadamard() {
-  document.getElementById("arrowcyl").setAttribute("position", "0.25 1.5 -1");
-  document.getElementById("arrowcyl").setAttribute("rotation", "0 0 90");
-
-  document.getElementById("arrowcone").setAttribute("position", "0.5 1.5 -1");
-  document.getElementById("arrowcone").setAttribute("rotation", "0 0 -90");
+  intervalIdH = setInterval(moveH, 10);
 }
 
-// Figure out why you need to reload the page on chrome to size it correctly
-// Add buttons for operating on sphere
+function moveM() {
+  var def = document.querySelector("#arrow");
+  var defRotation = def.getAttribute("rotation");
+
+  var random = Math.random();
+
+  var z = defRotation.z;
+
+  console.log(Math.round(z));
+  if (Math.round(z) === -90 || Math.round(z) === -270) {
+    if (random > 0.5) {
+      defRotation.x = 0;
+      defRotation.y = 0;
+      defRotation.z = 0;
+      def.setAttribute("rotation", defRotation);
+    } else {
+      defRotation.x = 0;
+      defRotation.y = 0;
+      defRotation.z = -180;
+      def.setAttribute("rotation", defRotation);
+    }
+  } else {
+    clearInterval(intervalIdM);
+    return;
+  }
+}
+
+function Measure() {
+  intervalIdM = setInterval(moveM, 10);
+}
 
 export default () => (
   <>
@@ -176,12 +263,39 @@ export default () => (
                   </a>
                 </p>
                 <p>
-                  In classical computing, we have <b>bits</b> that take on a
-                  value of either 0 or 1, while in quantum computing, we have{" "}
-                  <b>qubits</b> with values in a superposition 0 and 1. To
-                  represent this, we write our quantum state in the following
-                  way:<code style={codeStyle}>|ψ> = α|0> + β|1></code>
+                  The Bloch sphere is a useful tool for visualization of basic
+                  quantum computing operations on qubits. Say we have a quantum
+                  superposition of states{" "}
+                  <code style={codeStyle}>|ψ> = α|0> + β|1></code>. The state{" "}
+                  <code style={codeStyle}>|0></code> when we take a measurement
+                  is represented by the arrow pointing upwards on the sphere,
+                  and <code style={codeStyle}>|1></code> pointing downwards.
                 </p>
+                <p>
+                  When we use a Pauli gate X, we rotate the state about the X
+                  axis. gate Y about Y, and gate Z about Z. For X, this flips
+                  our state between pure state{" "}
+                  <code style={codeStyle}>|0></code> to pure state{" "}
+                  <code style={codeStyle}>|1></code>. This means either we have{" "}
+                  <code style={codeStyle}>α=1,β=0</code> or{" "}
+                  <code style={codeStyle}>α=0,β=1</code>. However, for the Y
+                  gate, this actually flips to either{" "}
+                  <code style={codeStyle}>α=i,β=0</code> or{" "}
+                  <code style={codeStyle}>α=0,β=i</code>.
+                </p>
+                <p>
+                  The Hadamard gate will bring us to a state that is a quantum
+                  superposition,{" "}
+                  <code style={codeStyle}>|ψ> = 1/√2|0> ± 1/√2|1></code>. Taking
+                  a measurement gives us either of the pure states, with a 50%
+                  probability of the wavefunction collapsing to either state.
+                </p>
+                <p>
+                  Check out the VR demo below to see it in action. If you don't
+                  have a VR device, you can simply view it on your browser as a
+                  3D applet.
+                </p>
+                <br />
                 <div>
                   <center>
                     <img
@@ -191,11 +305,11 @@ export default () => (
                     />
                   </center>
                 </div>
+                <br />
               </div>
             </div>
           </div>
         </div>
-        <p>Bloch sphere VR:</p>
         <center>
           <button style={myButton} onClick={X}>
             Pauli gate X
@@ -210,10 +324,15 @@ export default () => (
           <br />
           <button style={myButton} onClick={Hadamard}>
             Hadamard
+          </button>{" "}
+          <button style={myButton} onClick={Measure}>
+            Measure
           </button>
         </center>
         <p />
-        <div style={{ height: "500px", width: "500px", margin: '0 auto' }}>
+        <script src="https://unpkg.com/aframe-lerp-component/dist/aframe-lerp-component.min.js" />
+
+        <div style={{ height: "500px", width: "500px", margin: "0 auto" }}>
           <a-scene background="color: #f8f8f8" embedded>
             <a-assets>
               <img
@@ -261,14 +380,17 @@ export default () => (
               position="0 0 0"
               rotation="1 90 90"
             />
-            <a-entity id="arrow">
+            <a-entity
+              id="arrow"
+              lerp="duration: 5000; properties: position, rotation, scale"
+            >
               <a-cylinder
                 material="envMap: #sky; metalness:0.1; roughness: 1"
                 id="arrowcyl"
                 color="crimson"
                 position="0 0.0 0"
                 height="1"
-                radius="0.03"
+                radius="0.027"
               />
               <a-cone
                 material="envMap: #sky; metalness:0.1; roughness: 0"
