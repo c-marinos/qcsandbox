@@ -26,7 +26,6 @@ yarn dev
 Open in your browser at [localhost:3000](https://localhost:3000).
 
 ### Deployment
-
 Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download))
 
 ```bash
