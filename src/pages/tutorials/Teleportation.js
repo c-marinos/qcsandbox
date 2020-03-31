@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import Head from "../../components/Head";
 import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import Footer from "../../components/Footer";
@@ -25,7 +24,6 @@ const Content = styled.div`
 
 export default () => (
   <>
-    <Head image="https://og-image.qcsandbox.com/Quantum%20Teleportation.png?theme=dark&md=1&fontSize=100px&images=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fyiqq9wn916qar7i%2Flogo-white.svg%3Fraw%3D1" />
     <Menu />
     <Layout>
       <Header />

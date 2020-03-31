@@ -1,34 +1,27 @@
 import React from "react";
 import styled from "styled-components";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <Wrapper>
     <HeaderGroup>
       <div className="logo">
-        <Link href="/">
-          <a>
-            <img src="/assets/logo.svg" alt="" aria-label="icon" width="40" />
-          </a>
+        <Link to="/">
+          <img src="/assets/logo.svg" alt="" aria-label="icon" width="40" />
         </Link>
       </div>
     </HeaderGroup>
-    <HeaderGroupLinks>
-      <Link href="/tutorials">
-        <NewLink>
-          Tutorials
-          <NewLinkText bg="#93CBE6">New</NewLinkText>
-        </NewLink>
-      </Link>
-      <Link href="/sandbox">
-        <NewLink>
-          Sandbox
-          <NewLinkText bg="#D0A5D3">Soon</NewLinkText>
-        </NewLink>
-      </Link>
-      <Link href="https://curiee.com/about">
-        <a>About</a>
-      </Link>
+    <HeaderGroupLinks>      
+      <NewLink to="/tutorials">
+        Tutorials
+        <NewLinkText bg="#93CBE6">New</NewLinkText>
+      </NewLink>
+      <NewLink to="/sandbox">
+        Sandbox
+        <NewLinkText bg="#D0A5D3">Soon</NewLinkText>
+      </NewLink>
+      <a href="https://curiee.com/about">About</a>
+
     </HeaderGroupLinks>
   </Wrapper>
 );
@@ -58,7 +51,7 @@ const HeaderGroupLinks = styled(HeaderGroup)`
   }
 `;
 
-export const NewLink = styled.a`
+export const NewLink = styled(Link)`
   ursor: pointer;
   user-select: none;
   transition: background 120ms ease-in 0s;
@@ -81,6 +74,7 @@ export const NewLink = styled.a`
 `;
 
 export const NewLinkText = styled.div`
+  display: inline-block;
   align-self: center;
   margin-bottom: 8px;
   padding: 1px 3px;
