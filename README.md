@@ -4,6 +4,8 @@
 <img src="./website.png" width="60%" align="center" style="padding:1px;border:thin solid black;" />
 </p>
 
+
+
 ## Development
 
 ### Installation
@@ -16,7 +18,6 @@ npm run dev
 ```
 
 # or
-
 ```bash
 yarn
 yarn dev
@@ -36,5 +37,5 @@ now
 
 ## Creating new posts
 
-- Posts are maintained at our [qcsanbox_tutorials repo](https://github.com/wearecuriee/qcsandbox_tutorials).
-- Images for the posts can be created at our fork of [og-image](https://og-image.qcsandbox.com/).
+* Posts are maintained at our [qcsanbox_tutorials repo](https://github.com/wearecuriee/qcsandbox_tutorials).
+* Images for the posts can be created at our fork of [og-image](https://og-image.qcsandbox.com/).
